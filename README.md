@@ -9,5 +9,5 @@ sbt compile;
 sbt run;
 ```
 
-> **Note**
+> [!NOTE]
 > Portals has not yet been published to Maven Central. The Portals Project can be published locally using the `sbt publishLocal` command. To use Portals in your project, import the local snapshot instead: `libraryDependencies += "org.portals-project" %% "portals-core" % "0.1.0-SNAPSHOT"`.
